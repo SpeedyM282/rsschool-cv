@@ -67,9 +67,9 @@ function changeMode(){
 
 ## Certificates
 
-<img src="sertificate2.png" width="300" height="220">  <img src="sertificate1.png" width="300" height="220">  <img src="sertificate3.png" width="300" height="220">
-<img src="sertificate4.png" width="300" height="220">  <img src="sertificate5.png" width="300" height="220">  <img src="sertificate6.png" width="300" height="220">
-<img src="sertificate7.png" width="300" height="220">  <img src="sertificate8.png" width="300" height="220">  <img src="sertificate9.png" width="300" height="220">
+<img src="images/sertificate2.png" width="300" height="220">  <img src="images/sertificate1.png" width="300" height="220">  <img src="images/sertificate3.png" width="300" height="220">
+<img src="images/sertificate4.png" width="300" height="220">  <img src="images/sertificate5.png" width="300" height="220">  <img src="images/sertificate6.png" width="300" height="220">
+<img src="images/sertificate7.png" width="300" height="220">  <img src="images/sertificate8.png" width="300" height="220">  <img src="images/sertificate9.png" width="300" height="220">
 
 ## Languages
 

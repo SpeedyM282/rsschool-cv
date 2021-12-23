@@ -30,3 +30,37 @@ All my projects you can find in my GitHub page.*
 * JavaScript
 * Git, GitHub
 * VS Code, IntelliJ IDEA
+
+## Education
+
+**INHA University in Tashkent** - `2020-2024`
+> School of Computer and Information Engineering
+
+## My code Examples
+
+***JavaScript Code Example***
+```
+function changeMode(){
+  if(document.getElementById('onOff').checked == true){
+    document.getElementById('body-part').style.backgroundColor = "rgb(59, 59, 59)";
+    alert("Dark Mode");
+  }
+  else{
+    document.getElementById('body-part').style.backgroundColor = "aliceblue";
+    alert("Light Mode");
+  }
+}
+```
+
+## Passed Courses
+
+1. *Online Digital Camp - Front-End Development Track* - Digital Generation Uzbakistan (August 2020)
+2. *Front-End Development Track* - Udacity (May 2021)
+3. *HTML, CSS, JavaScript from zero to expert* - Udemy (May 2021)
+4. *JavaScript & jQuery for Beginners* - Udemy (May 2021)
+5. *Complete Responsive Web Development* - Udemy (May 2021)
+6. *ReactJS for Front-End* - Udemy (June 2021)
+7. *JavaScript for ReactJS* - Udemy (June 2021)
+8. *HTML, CSS, JavaScript for Beginners* - Udemy (June 2021)
+9. *JavaScript for Beginners* - Udemy (June 2021)
+10. *Git from A to Z* - GeekBrains (August 2021)

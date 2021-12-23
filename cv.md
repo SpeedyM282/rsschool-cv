@@ -64,3 +64,15 @@ function changeMode(){
 8. *HTML, CSS, JavaScript for Beginners* - Udemy (June 2021)
 9. *JavaScript for Beginners* - Udemy (June 2021)
 10. *Git from A to Z* - GeekBrains (August 2021)
+
+## Certificates
+
+<img src="sertificate2.png" width="300" height="220">  <img src="sertificate1.png" width="300" height="220">  <img src="sertificate3.png" width="300" height="220">
+<img src="sertificate4.png" width="300" height="220">  <img src="sertificate5.png" width="300" height="220">  <img src="sertificate6.png" width="300" height="220">
+<img src="sertificate7.png" width="300" height="220">  <img src="sertificate8.png" width="300" height="220">  <img src="sertificate9.png" width="300" height="220">
+
+## Languages
+
+* Uzbek - Native
+* Russian - C1
+* English - B1

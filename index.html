@@ -17,7 +17,7 @@
         <li>Languages</li>
         <li>Education</li>
         <li>Code Style</li>
-        <li>Contact</li>
+        <li>Contacts</li>
       </ul>
     </nav>
   </header>
@@ -194,9 +194,33 @@
         </ul>
       </section>
 
-      <section class="code-style"></section>
+      <section class="code-style">
+        <h2 id="code" class="title">Code Examples</h2>
+        <pre>
+          <code class="code-ex-js">
+            <span class="keyword-js">function</span> <span class="funcName-js">changeMode</span>() {
+              <span class="keyword-js">if</span>(<span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span>'onOff'</span>).checked) {
+                <span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span class="prentecies-js">'body-part'</span>).style.backgroundColor = <span class="prentecies-js">'rgb(59, 59, 59)'</span>;
+                alert(<span class="prentecies-js">'Dark Mode'</span>);
+              }
+              <span class="keyword-js">else</span> {
+                <span class="document-js">document</span>.getElementById(<span class="prentecies-js">'body-part'</span>).style.backgroundColor = <span class="prentecies-js">'aliceblue'</span>;
+                alert(<span class="prentecies-js">'Light Mode'</span>);
+              }
+            }
+          </code>
+        </pre>
+      </section>
 
-      <section class="contact"></section>
+      <section class="contacts">
+        <h2 class="title">My Contacts</h2>
+        <p class="subtitle">You can contact me via:</p>
+        <ul>
+          <li>Telegram: <a href="#">@SpeedyM_282</a></li>
+          <li>Email: <a href="#">abdulaxadrizakulov@gmail.com</a></li>
+          <li>LinkedIn: <a href="#">Abdulakhad Rizakulov</a></li>
+        </ul>
+      </section>
 
     </div>
   </main>

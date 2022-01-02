@@ -1,0 +1,95 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-photo {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  margin-bottom: 0;
+}
+
+.main-title {
+  font-size: 73px;
+}
+
+.highlighte-text {
+  color: #4f3aa0;
+  font-size: 33px;
+}
+
+.about-me-description {
+  background-color: rgb(102, 102, 102);
+  padding: 1%;
+  border-radius: 19px;
+  margin: 0 5% 3% 5%;
+}
+
+#self-description {
+  font-size: 33px;
+  border-bottom: 3px solid #4f3aa0;
+  width: 255px;
+}
+
+.self-desc-p {
+  font-family: sans-serif;
+  line-height: 33px;
+  font-size: 19px;
+}
+
+.self-desc-txt {
+  padding: 0.15%;
+  background-color: #4f3aa0;
+  border-radius: 9px;
+}
+
+/*---------------# My-Skills Section Styles #---------------*/
+
+.skills {
+  background-color: rgb(102, 102, 102);
+  padding: 1%;
+  border-radius: 19px;
+  margin: 0 5% 3% 5%;
+  height: 240px;
+}
+
+#skills {
+  font-size: 33px;
+  border-bottom: 3px solid #4f3aa0;
+  width: 145px;
+}
+
+.skills-list {
+  margin: 2%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70px;
+}
+
+.cont-wrapper {
+  flex-basis: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+.skills-items-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.skills-item {
+  font-size: 21px;
+}

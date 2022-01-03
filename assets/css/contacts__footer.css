@@ -1,0 +1,48 @@
+#contacts {
+  width: 165px;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  padding: 1%;
+  
+}
+
+.contacts-media {
+  font-weight: 600;
+}
+
+.media-link {
+  color: #adadad;
+}
+
+/*-----------------# Footer Part Styles #-----------------*/
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+footer > ul {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+footer > ul > li {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.rsschool-img {
+  width: 100px;
+  height: auto;
+}
+
+.rsschool-img:hover {
+  opacity: 0.7;
+}

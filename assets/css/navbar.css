@@ -2,10 +2,25 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1D262D;;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
+  color: #F8F0E4;
+  font-size: 21px;
+}
+
+section {
+  margin: 5%;
+  border-radius: 19px;
+  padding: 1%;
+}
+
+a {
   color: #F8F0E4;
 }
 
@@ -29,14 +44,18 @@ header {
   align-items: center;
 }
 
-.navbar-item {
+.navbar-item > a {
   cursor: pointer;
   font-weight: 500;
   color: #F8F0E4;
   font-size: 19px;
 }
 
-.navbar-item:hover {
+a:hover {
   color: #4f3aa0;
   transition: 0.5s;
+}
+
+.nav-links {
+  text-decoration: none;
 }

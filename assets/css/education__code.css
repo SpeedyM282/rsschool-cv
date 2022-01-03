@@ -1,0 +1,82 @@
+#edu-courses-title {
+  width: 305px;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.edu-items-wrapper {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 750px) {
+  .education-item {
+    font-size: 17px;
+    flex-direction: column;
+  }
+
+  .edu-org {
+    border-bottom: 3px solid #4f3aa0;
+    width: 100%;
+  }
+}
+
+/*-------------------# Code Example Section Styles #-------------------*/
+
+#code {
+  width: 205px;
+}
+
+.keyword-js {
+  color: #619ed8;
+}
+
+.funcName-js {
+  color: #dcdba7;
+}
+
+.document-js {
+  color: #a5ddff;
+}
+
+.prentecies-js {
+  color: #c89076;
+}
+
+.style-js {
+  color: #64c3ff;
+}
+
+.if-else-js {
+  color: #bf87c2;
+}
+
+/*----------------# Media Queries For Tablets #----------------*/
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  code {
+    font-size: 16px;
+  }
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 949px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  code {
+    font-size: 13px;
+  }
+}

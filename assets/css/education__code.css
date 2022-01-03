@@ -1,0 +1,46 @@
+#edu-courses-title {
+  width: 305px;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.edu-items-wrapper {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*-------------------# Code Example Section Styles #-------------------*/
+
+#code {
+  width: 205px;
+}
+
+.keyword-js {
+  color: #619ed8;
+}
+
+.funcName-js {
+  color: #dcdba7;
+}
+
+.document-js {
+  color: #a5ddff;
+}
+
+.prentecies-js {
+  color: #c89076;
+}
+
+.style-js {
+  color: #64c3ff;
+}
+
+.if-else-js {
+  color: #bf87c2;
+}

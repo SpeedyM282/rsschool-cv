@@ -8,7 +8,6 @@
 
 .contacts-item {
   padding: 1%;
-  
 }
 
 .contacts-media {
@@ -17,6 +16,14 @@
 
 .media-link {
   color: #adadad;
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 500px) {
+  .contacts-item {
+    font-size: 16px;
+  }
 }
 
 /*-----------------# Footer Part Styles #-----------------*/
@@ -45,4 +52,17 @@ footer > ul > li {
 
 .rsschool-img:hover {
   opacity: 0.7;
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 500px) {
+  .rsschool-img {
+    width: 50px;
+    height: auto;
+  }
+
+  footer > ul {
+    font-size: 16px;
+  }
 }

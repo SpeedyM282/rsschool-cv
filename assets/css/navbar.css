@@ -31,6 +31,10 @@ header {
   margin-bottom: 27px;
 }
 
+.hamburger {
+  display: none;
+}
+
 .navbar {
   flex-basis: 50%;
   display: flex;
@@ -58,4 +62,23 @@ a:hover {
 
 .nav-links {
   text-decoration: none;
+}
+
+/*----------------# Media Queries For Tablets and Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 1250px) {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .hamburger:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
 }

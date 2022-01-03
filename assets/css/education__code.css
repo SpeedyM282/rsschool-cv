@@ -15,6 +15,20 @@
   text-align: center;
 }
 
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 750px) {
+  .education-item {
+    font-size: 17px;
+    flex-direction: column;
+  }
+
+  .edu-org {
+    border-bottom: 3px solid #4f3aa0;
+    width: 100%;
+  }
+}
+
 /*-------------------# Code Example Section Styles #-------------------*/
 
 #code {
@@ -43,4 +57,26 @@
 
 .if-else-js {
   color: #bf87c2;
+}
+
+/*----------------# Media Queries For Tablets #----------------*/
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  code {
+    font-size: 16px;
+  }
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 949px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  code {
+    font-size: 13px;
+  }
 }

@@ -9,7 +9,8 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/navbar.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/aboutme__skills.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/myprojects__languages.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/education__code.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/contacts__footer.css">
 </head>
 
 <body>
@@ -18,12 +19,24 @@
     <nav class="navbar">
       <ul class="navbar-ul">
 
-        <li class="navbar-item">Skills</li>
-        <li class="navbar-item">Projects</li>
-        <li class="navbar-item">Languages</li>
-        <li class="navbar-item">Education</li>
-        <li class="navbar-item">Code Style</li>
-        <li class="navbar-item">Contacts</li>
+        <li class="navbar-item">
+          <a class="nav-links" href="#sk">Skills</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-links" href="#projects">Projects</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-links" href="#lan">Languages</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-links" href="#edu">Education</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-links" href="#code-ex">Code Style</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-links" href="#contacts">Contacts</a>
+        </li>
 
       </ul>
     </nav>
@@ -55,7 +68,8 @@
             Also, in university I have learned <span class="self-desc-txt">C++</span>, <span
               class="self-desc-txt">Java</span> and made about 15 mini-projects with these programming
             languages.
-            Currently, I am interested in learning <span class="self-desc-txt">ReactJS</span>, because it is very
+            Currently, I am interested in learning <span id="sk" class="self-desc-txt">ReactJS</span>, because it is
+            very
             popular and powerful JavaScript
             framework.
             All my projects you can find in my <span class="self-desc-txt">GitHub</span> page.
@@ -89,7 +103,7 @@
         </ul>
       </section>
 
-      <section class="projects">
+      <section id="projects" class="projects">
         <h2 id="projects-title" class="title">My Projects</h2>
 
         <div class="projects-wrapper">
@@ -130,8 +144,7 @@
               <p class="subtitle projects__subtitle"><span class="self-desc-txt">HTML</span> <span
                   class="self-desc-txt">CSS</span> <span class="self-desc-txt">JS</span></p>
               <h3 class="title projects__title">Cards</h3>
-              <p class="projects-desc">A cards pet-project made using JavaScript functionality and CSS styles and
-                animations.</p>
+              <p class="projects-desc">A cards pet-project made using JavaScript functionality and CSS styles.</p>
 
               <a href="https://speedym282.github.io/cards-project/" target="_blank" class="projects-link">
                 <button>See Project</button>
@@ -164,7 +177,7 @@
               <p class="projects-desc">A hover board pet-project made using JavaScript functionality and CSS styles.</p>
 
               <a href="https://speedym282.github.io/hover-board-project/" target="_blank" class="projects-link">
-                <button>See Project</button>
+                <button id="lan">See Project</button>
               </a>
 
             </div>
@@ -188,53 +201,77 @@
 
           <div class="langs-wrapper">
             <dt class="languages-title">English</dt>
-            <dd class="languages-level">Intermediate</dd>
+            <dd id="edu" class="languages-level">Intermediate</dd>
           </div>
         </dl>
 
       </section>
 
       <section class="education">
-        <h2>Education and Courses</h2>
+        <h2 id="edu-courses-title" class="title">Education and Courses</h2>
         <ul>
-          <li class="edu-item">
-            <p class="edu-year">2020 - now</p>
-            <p class="edu-status">In Progress</p>
-            <h4 class="edu-degree">Computer Science</h4>
-            <p class="edu-org">
-              <a href="inha.uz">INHA University in Tashkent, Uzbekistan</a>
-            </p>
+          <li class="education-item">
+            <div class="edu-items-wrapper">
+              <p class="edu-year">2020 - now</p>
+            </div>
+            <div class="edu-items-wrapper">
+              <p class="edu-status">In Progress</p>
+            </div>
+            <div class="edu-items-wrapper">
+              <h4 class="edu-degree">Computer Science</h4>
+            </div>
+            <div class="edu-items-wrapper">
+              <p class="edu-org">
+                <a href="https://inha.uz/" target="_blank">INHA University in Tashkent, Uzbekistan</a>
+              </p>
+            </div>
           </li>
 
           <li class="education-item">
-            <p class="edu-year">2021 - now</p>
-            <p class="edu-status">In Progress</p>
-            <h4 class="edu-degree">JavaScript/Front-End Program</h4>
-            <p class="edu-org">
-              <a href="https://rs.school/js/">Rolling Scopes School</a>
-            </p>
+            <div class="edu-items-wrapper">
+              <p class="edu-year">2021 - now</p>
+            </div>
+            <div class="edu-items-wrapper">
+              <p class="edu-status">In Progress</p>
+            </div>
+            <div class="edu-items-wrapper">
+              <h4 class="edu-degree">JavaScript/Front-End Program</h4>
+            </div>
+            <div class="edu-items-wrapper">
+              <p class="edu-org">
+                <a href="https://rs.school/js/" target="_blank">Rolling Scopes School</a>
+              </p>
+            </div>
           </li>
 
           <li class="education-item">
-            <p class="edu-year">May 2021</p>
-            <p class="edu-status">
-              <a download href="certificate1">Certificate</a>
-            </p>
-            <h4 class="edu-degree">Front End Development Track</h4>
-            <p class="edu-org">
-              <a href="udacity.com">Udacity</a>
-            </p>
+            <div class="edu-items-wrapper">
+              <p class="edu-year">May 2021</p>
+            </div>
+            <div class="edu-items-wrapper">
+              <a download href="./assets/img/certificate1.png" target="_blank">Certificate</a>
+            </div>
+            <div class="edu-items-wrapper">
+              <h4 class="edu-degree">Front End Development Track</h4>
+            </div>
+            <div class="edu-items-wrapper">
+              <a href="https://udacity.com/" target="_blank">Udacity</a>
+            </div>
           </li>
 
           <li class="education-item">
-            <p class="edu-year">August 2021</p>
-            <p class="edu-status">
-              <a download href="certificate2">Certificate</a>
-            </p>
-            <h4 class="edu-degree">Git from A to Z</h4>
-            <p class="edu-org">
-              <a href="geekbrains.com">GeekBrains</a>
-            </p>
+            <div class="edu-items-wrapper">
+              <p class="edu-year">August 2021</p>
+            </div>
+            <div class="edu-items-wrapper">
+              <a download href="./assets/img/certificate2.png" target="_blank">Certificate</a>
+            </div>
+            <div class="edu-items-wrapper">
+              <h4 class="edu-degree">Git from A to Z</h4>
+            </div>
+            <div id="code-ex" class="edu-items-wrapper">
+              <a href="https://geekbrains.com/" target="_blank">GeekBrains</a>
+            </div>
           </li>
         </ul>
       </section>
@@ -244,13 +281,13 @@
         <pre>
           <code class="code-ex-js">
             <span class="keyword-js">function</span> <span class="funcName-js">changeMode</span>() {
-              <span class="keyword-js">if</span>(<span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span>'onOff'</span>).checked) {
-                <span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span class="prentecies-js">'body-part'</span>).style.backgroundColor = <span class="prentecies-js">'rgb(59, 59, 59)'</span>;
-                alert(<span class="prentecies-js">'Dark Mode'</span>);
+              <span class="if-else-js">if</span>(<span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span class="prentecies-js">'onOff'</span>).<span class="document-js">checked</span>) {
+                <span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span class="prentecies-js">'body-part'</span>).<span class="style-js">style</span>.<span class="document-js">backgroundColor</span> = <span class="prentecies-js">'rgb(59, 59, 59)'</span>;
+                <span class="funcName-js">alert</span>(<span class="prentecies-js">'Dark Mode'</span>);
               }
-              <span class="keyword-js">else</span> {
-                <span class="document-js">document</span>.getElementById(<span class="prentecies-js">'body-part'</span>).style.backgroundColor = <span class="prentecies-js">'aliceblue'</span>;
-                alert(<span class="prentecies-js">'Light Mode'</span>);
+              <span class="if-else-js">else</span> {
+                <span class="document-js">document</span>.<span class="funcName-js">getElementById</span>(<span class="prentecies-js">'body-part'</span>).<span class="style-js">style</span>.<span class="document-js">backgroundColor</span> = <span class="prentecies-js">'aliceblue'</span>;
+                <span class="funcName-js">alert</span>(<span class="prentecies-js">'Light Mode'</span>);
               }
             }
           </code>
@@ -258,12 +295,24 @@
       </section>
 
       <section class="contacts">
-        <h2 class="title">My Contacts</h2>
-        <p class="subtitle">You can contact me via:</p>
-        <ul>
-          <li>Telegram: <a href="#">@SpeedyM_282</a></li>
-          <li>Email: <a href="#">abdulaxadrizakulov@gmail.com</a></li>
-          <li>LinkedIn: <a href="#">Abdulakhad Rizakulov</a></li>
+        <h2 id="contacts" class="title">My Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <span class="contacts-media">Telegram</span>:
+            <a href="https://t.me/SpeedyM_282" target="_blank" class="media-link">
+              @SpeedyM_282
+            </a>
+          </li>
+          <li class="contacts-item">
+            <span class="contacts-media">Email</span>:
+            <span class="media-link">abdulaxadrizakulov@gmail.com</span>
+          </li>
+          <li class="contacts-item">
+            <span class="contacts-media">LinkedIn</span>:
+            <a href="https://www.linkedin.com/in/abdulakhad-rizakulov-181a50210" target="_blank" class="media-link">
+              Abdulakhad Rizakulov
+            </a>
+          </li>
         </ul>
       </section>
 
@@ -274,11 +323,11 @@
     <ul>
       <li>© 2022 by Akhadbek Rizakulov</li>
       <li>
-        <a href="#">GitHub</a>
+        <a href="https://github.com/SpeedyM282" target="_blank">GitHub</a>
       </li>
       <li>
-        <a href="#">
-          <img src="./assets/svg/rs_school_js.svg" alt="RSSchool" />
+        <a href="https://rs.school/js/" target="_blank">
+          <img src="./assets/svg/rs_school_js.svg" alt="RSSchool" class="rsschool-img" />
         </a>
       </li>
     </ul>

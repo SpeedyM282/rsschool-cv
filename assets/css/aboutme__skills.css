@@ -52,6 +52,18 @@
   border-radius: 7px;
 }
 
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 750px) {
+  .main-title {
+    font-size: 30px;
+  }
+
+  .highlighte-text {
+    font-size: 25px;
+  }
+}
+
 /*---------------# My-Skills Section Styles #---------------*/
 
 .skills {
@@ -92,4 +104,20 @@
 
 .skills-item {
   font-size: 21px;
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 500px) {
+  .skills {
+    margin-bottom: 55px;
+  }
+
+  .skills-list, .skills-items-cont, .skills-item {
+    display: block;
+  }
+
+  .cont-wrapper {
+    display: inline;
+  }
 }

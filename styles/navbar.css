@@ -12,6 +12,12 @@ body {
   font-weight: 500;
   color: #F8F0E4;
   font-size: 21px;
+  margin: auto;
+}
+
+nav, main, footer {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 section {
@@ -25,7 +31,11 @@ a {
 }
 
 header {
+  background-color: #1D262D;
+  position: fixed;
   display: flex;
+  width: 100%;
+  top: 0;
   justify-content: flex-end;
   height: 70px;
   margin-bottom: 27px;
@@ -36,8 +46,9 @@ header {
 }
 
 .navbar {
-  flex-basis: 50%;
+  flex-basis: 1200px;
   display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-ul {
@@ -55,14 +66,32 @@ header {
   font-size: 19px;
 }
 
+.nav-links {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-links::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: #4f3aa0;
+  bottom: 0;
+  right: 0;
+  transition: all 0.33s linear;
+}
+
+.nav-links:hover::before {
+  width: 100%;
+  left: 0;
+}
+
 a:hover {
-  color: #4f3aa0;
+  color: #7766bb;
   transition: 0.5s;
 }
 
-.nav-links {
-  text-decoration: none;
-}
 
 /*----------------# Media Queries For Tablets and Phones #----------------*/
 

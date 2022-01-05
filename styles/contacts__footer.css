@@ -54,6 +54,11 @@ footer > ul > li {
   opacity: 0.7;
 }
 
+.mini {
+  font-size: 23px;
+  font-weight: 600;
+}
+
 /*----------------# Media Queries For Phones #----------------*/
 
 @media (min-width: 250px) and (max-width: 500px) {

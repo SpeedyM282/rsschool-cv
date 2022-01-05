@@ -66,14 +66,32 @@ header {
   font-size: 19px;
 }
 
+.nav-links {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-links::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: #4f3aa0;
+  bottom: 0;
+  right: 0;
+  transition: all 0.33s linear;
+}
+
+.nav-links:hover::before {
+  width: 100%;
+  left: 0;
+}
+
 a:hover {
-  color: #4f3aa0;
+  color: #7766bb;
   transition: 0.5s;
 }
 
-.nav-links {
-  text-decoration: none;
-}
 
 /*----------------# Media Queries For Tablets and Phones #----------------*/
 

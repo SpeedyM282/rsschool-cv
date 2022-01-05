@@ -13,6 +13,14 @@
   width: 210px;
   height: 210px;
   border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.my-photo:hover {
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+  box-shadow: 5px 10px #4f3aa0;
+  transition: ease-in-out 0.5s;
 }
 
 .title {

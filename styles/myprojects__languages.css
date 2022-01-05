@@ -13,14 +13,17 @@
 }
 
 .project-item {
-  background-color: rgb(102, 102, 102);
+  margin: 5% 0;
+  border: 1px solid #E12179;
   width: 50%;
   height: 250px;
   border-radius: 19px;
 }
 
 .projects-content {
-  margin: 5%;
+  margin-top: -3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .projects__subtitle {
@@ -41,7 +44,7 @@
   margin-left: 40%;
 }
 
-button {
+.projects-link {
   background-color: #4f3aa0;
   color: #F8F0E4;
   cursor: pointer;
@@ -50,14 +53,18 @@ button {
   border-radius: 19px;
   border: none;
   font-size: 21px;
+  padding: 2%;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
 }
 
-button:hover {
-  transition: 1s;
-  background-color: #F8F0E4;
-  color: #4f3aa0;
+.projects-link:hover {
+  transition: ease-in-out 0.5s;
+  background-color: #E12179;
+  color: #F8F0E4;
   font-weight: 500;
 }
+
 
 /*----------------# Media Queries For Tablets #----------------*/
 
@@ -73,7 +80,6 @@ button:hover {
   .projects-content > p {
     font-size: 19px;
   }
-
 }
 
 /*----------------# Media Queries For Phones #----------------*/
@@ -96,8 +102,8 @@ button:hover {
   }
 
   .project-item {
-    width: 80%;
-    height: 270px;
+    width: 50%;
+    height: 220px;
   }
 
   .left, .right {

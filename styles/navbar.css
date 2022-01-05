@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1D262D;;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #F8F0E4;
+  font-size: 21px;
+  margin: auto;
+}
+
+nav, main, footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 5%;
+  border-radius: 19px;
+  padding: 1%;
+}
+
+a {
+  color: #F8F0E4;
+}
+
+header {
+  background-color: #1D262D;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+  justify-content: flex-end;
+  height: 70px;
+  margin-bottom: 27px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.navbar {
+  flex-basis: 1200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-ul {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar-item > a {
+  cursor: pointer;
+  font-weight: 500;
+  color: #F8F0E4;
+  font-size: 19px;
+}
+
+a:hover {
+  color: #4f3aa0;
+  transition: 0.5s;
+}
+
+.nav-links {
+  text-decoration: none;
+}
+
+/*----------------# Media Queries For Tablets and Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 1250px) {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .hamburger:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}

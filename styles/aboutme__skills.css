@@ -1,0 +1,124 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.about-me > h2 {
+  border: none;
+}
+
+.my-photo {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  margin-bottom: 0;
+  border-bottom: 3px solid #4f3aa0;
+}
+
+.main-title {
+  font-size: 73px;
+}
+
+.highlighted-text {
+  color: #4f3aa0;
+  font-size: 33px;
+}
+
+.about-me-description {
+  border-radius: 19px;
+}
+
+#self-description {
+  font-size: 33px;
+  border-bottom: 3px solid #4f3aa0;
+  width: 255px;
+}
+
+.self-desc-p {
+  font-family: sans-serif;
+  line-height: 33px;
+  font-size: 19px;
+}
+
+.self-desc-txt {
+  padding: 0.15%;
+  background-color: #4f3aa0;
+  border-radius: 7px;
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 750px) {
+  .main-title {
+    font-size: 30px;
+  }
+
+  .highlighted-text {
+    font-size: 25px;
+  }
+}
+
+/*---------------# My-Skills Section Styles #---------------*/
+
+.skills {
+  border-radius: 19px;
+  margin: 0 5% 3% 5%;
+  height: 240px;
+}
+
+#skills {
+  font-size: 33px;
+  border-bottom: 3px solid #4f3aa0;
+  width: 145px;
+}
+
+.cont-wrapper {
+  margin: 2%;
+  padding-top: 1%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 90%;
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.skills-items-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.skills-item {
+  font-size: 21px;
+}
+
+/*----------------# Media Queries For Phones #----------------*/
+
+@media (min-width: 250px) and (max-width: 500px) {
+  .skills {
+    margin-bottom: 55px;
+  }
+
+  .skills-list, .skills-items-cont, .skills-item {
+    display: block;
+  }
+
+  .cont-wrapper {
+    display: inline;
+  }
+}

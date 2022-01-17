@@ -8,7 +8,6 @@
 
 ## Contacts
 
-* **Phone**: +998 (93) 391-4-391
 * **Email**: abdulaxadrizakulov@gmail.com
 * **Telegram**: [@SpeedyM_282](https://t.me/SpeedyM_282)
 * **LinkedIn**: [Abdulakhad Rizakulov](https://www.linkedin.com/in/abdulakhad-rizakulov-181a50210)

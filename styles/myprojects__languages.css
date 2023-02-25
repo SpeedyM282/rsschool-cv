@@ -5,7 +5,7 @@
 #projects-title {
   font-size: 39px;
   border-bottom: 3px solid #4f3aa0;
-  width: 220px;
+  width: 300px;
 }
 
 .self-desc-txt {
@@ -77,7 +77,7 @@
     border-radius: 15px;
   }
 
-  .projects-content > p {
+  .projects-content>p {
     font-size: 19px;
   }
 }
@@ -88,7 +88,7 @@
   .projects {
     text-align: center;
   }
-  
+
   button {
     width: 80px;
     height: 30px;
@@ -96,8 +96,8 @@
     margin-top: -5px;
     border-radius: 15px;
   }
-  
-  .projects-content > p {
+
+  .projects-content>p {
     font-size: 15px;
   }
 
@@ -106,10 +106,11 @@
     height: 220px;
   }
 
-  .left, .right {
+  .left,
+  .right {
     margin: 0;
   }
-  
+
 }
 
 /*----------# Languages Section Styles #----------*/
